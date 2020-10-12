@@ -30,9 +30,15 @@ input {
   border: 2px solid red;
   }
 
+}
+
+
 .base-container {
-  @extend .container-fluid;
-  max-width: var(--breakpoint-lg);
-  padding: 30px 15px;
-  }
+   @extend .container-fluid;
+   max-width: var(--breakpoint-lg);
+   padding: 30px 15px;
+   }
+
+body {
+  padding-top: 56px;
 }
